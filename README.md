@@ -16,7 +16,7 @@ We have set up for you a project and a mock local server.
 
 - GET from http://localhost:3000/movies ← list all movies items
 - GET from http://localhost:3000/movies/<movie-id> ← list details about a movie
-- POST from http://localhost:3000/movies<- add new movie to the list
+- POST from http://localhost:3000/movies ← add new movie to the list
 
 ###  We would like to see the following:
 
