@@ -9,7 +9,7 @@ Clone this repo and send us a link to your work.
 We want to test your ability to write clean modular angular code that talks to a RESTful API endpoints.
 
 - Build a Movie app single page application.
-- Add/Delete todo items
+- Add movie to the list.
 - Ability to filter movies in the movie list using the title
 
 We have set up for you a project and a mock local server.
