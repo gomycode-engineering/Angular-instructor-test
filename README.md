@@ -1,27 +1,24 @@
-# MovieApp
+# Angular Technical Test
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
+We've designed a small remote technical test, that is open ended. You should be able to make choices and assumptions without guidance. We're interested in seeing how you think and architect out the code. You should not spend more than 24 hours on this so think strategically about what you want to show.
 
-## Development server
+Clone this repo and send us a link to your work.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Spec:
 
-## Code scaffolding
+We want to test your ability to write clean modular angular code that talks to a RESTful API endpoints.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Build a Movie app single page application.
+- Add/Delete todo items
+- Ability to filter movies in the movie list using the title
 
-## Build
+We have set up for you a project and a mock local server.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- GET from http://localhost:3000/movies ← list all movies items
+- GET from http://localhost:3000/movies/<movie-id> ← list details about a movie
+- POST from http://localhost:3000/movies<- add new movie to the list
 
-## Running unit tests
+###  We would like to see the following:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Styled components
+- Modular Angular code
